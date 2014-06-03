@@ -1,4 +1,5 @@
 FROM datt/datt-archlinux
+MAINTAINER Marko Tasic <mtasic85@gmail.com>
 EXPOSE 22
 RUN echo 'root:4rchl1nux' |chpasswd
 RUN pacman -Syu --noconfirm
